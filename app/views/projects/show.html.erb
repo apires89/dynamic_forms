@@ -5,5 +5,9 @@
   <%= @project.title %>
 </p>
 
+<% @project.tasks.each do |task| %>
+
+<% end %>
+
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>
